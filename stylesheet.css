@@ -148,6 +148,7 @@
   .lesson {
     float: left;
     width: 25%;
+    padding-bottom: -20px;
   }
   
   .lesson-icon {
@@ -165,6 +166,7 @@
     width: 80%;
     display: inline-block;
     margin-top: 15px;
+    padding-bottom: 20px;
     font-size: 15px;
     color: #b3aeb5;
   }
