@@ -1,102 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="stylesheet.css">
-    <title>HMI Komisariat Muawiyah</title>
-</head>
-<body>
-    <header>
-        <div class="container">
-          <div class="header-left">
-            <img class="logo" src="C:\xampp\htdocs\HMI\website-muawiyah\logobaru.jpg">
-          </div>
-          <!-- Tambahkan ikon menu disini -->
-          <span class="fa fa-bars menu-icon"></span>
-          <div class="header-right">
-            <a href="#">Pelajaran</a>
-            <a href="#">Daftar</a>
-            <a href="#" class="login">Log in</a>
-          </div>
-        </div>
-      </header>
-       <div class="top-wrapper">
-        <div class="container">
-          <h1>Selamat Datang</h1>
-          <h1>Website Resmi HMI Komisariat Muawiyah</h1>
-          <p>Wadah informasi seputar profil</p>
-          <p>Kalian dapat mengirimkan karya Anda, baik berupa tulisan ataupun lainnya disini.</p>
-          <div class="btn-wrapper">
-            <a href="#" class="btn signup">Daftar dengan Email</a>
-            <p>atau</p>
-            <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
-            <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Bagian Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">hmimuawiyah</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Profil</a>
+            <a class="nav-item nav-link" href="#">Artikel</a>
+            <a class="nav-item nav-link" href="#">Tentang</a>
+            <a class="nav-item nav-link btn btn-primary tombol" href="#">Login</a>
           </div>
         </div>
       </div>
-      <div class="lesson-wrapper">
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- a Jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <div class="heading">
-            <h2>Cari tau dari mana anda mau memulai!</h2>
-          </div>
-          <div class="lessons">
-            <div class="lesson">
-              <div class="lesson-icon">
-                <img src="">
-                 <p>HTML & CSS</p>
-              </div>
-               <p class="text-contents">Bahasa yang digunakan untuk membuat dan mendesain tampilan situs web Anda. </p>
-            </div>
-            <div class="lesson">
-              <div class="lesson-icon">
-                <img src="">
-                <p>jQuery</p>
-              </div>
-              <p class="text-contents">Library JavaScript yang cepat, kaya akan fitur, dan mudah digunakan yang menangani animasi dan permintaan Ajax.</p>
-            </div>
-            <div class="lesson">
-              <div class="lesson-icon">
-                <img src="">
-                <p>Ruby</p>
-              </div>
-              <p class="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
-            </div>
-            <div class="lesson">
-              <div class="lesson-icon">
-                <img src="">
-                <p>PHP</p>
-              </div>
-              <p class="text-contents">Bahasa skrip open source yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
-            </div>
-            <div class="clear"></div>
-          </div>
+          <h1 class="display-4"> HMI Komisariat Muawiyah <br> <span>Muslim Kreatif-Inovatif</span> </h1>
         </div>
       </div>
-      
-      <div class="main">
-        <div class="contact-form">
-            <h3 class="section-title">Hubungi kami</h3>
-            <p>Email (Wajib Diisi)</p>
-            <!-- Tambahkan tag <input> -->
-            <input name="email" id="email" value="email" />
-        
-            <p>Pesan (Wajib Diisi)</p>
-            <!-- Tambahkan tag <textarea> --> 
-            <textarea name="pesan" id=pesan rows="" cols="40"></textarea>
-        
-            <p>*Bidang Wajib Diisi</p>
-            <!-- Tambahkan tag <input> -->
-            <input class=contact-submit type="submit" name="" id="" value="kirim" />
-            </div>
-        </div>
-      </div>
-      <footer>
-        <div class="container">
-          <img src="">hmimuawiyah (logo)
-          <p>Muslim Kreatif-Inovatif</p>
-        </div>
-        
-      </footer>
-    </body>
-  </html>
+    <!-- b Jumbotron -->
+
+
+  </body>
+</html>
