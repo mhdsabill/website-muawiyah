@@ -4,13 +4,8 @@
   position: relative;
 } */
 
-.navbar-brand {
-  font-family: monospace;
-  font-size: 32px;
-} */
-
 /* Jumbotron */
-.jumbotron {
+/* .jumbotron {
   background-image: url(img/DSC03126.JPG);
   background-size: cover;
   height: 380px;
@@ -44,6 +39,11 @@
 
 .jumbotron .display-4 span {
   font-weight: 500;
+} */
+
+.navbar-brand {
+  font-family: monospace;
+  font-size: 30px;
 }
 
 /* fungsi */
@@ -92,5 +92,10 @@
 
   .carousel-item img {
     margin-top: -50px;
+  }
+
+  .carousel-item .display-4 {
+    margin-top: -540px;
+    text-align: center;
   }
 }
