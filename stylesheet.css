@@ -58,6 +58,7 @@
   transition: all 0.5s;
 }
 
+
 /* versi desktop */
 @media (min-width: 992px) {
   .navbar-brand, .nav-link {
@@ -97,5 +98,34 @@
   .carousel-item .display-4 {
     margin-top: -540px;
     text-align: center;
+  }
+
+  #artikel {
+    margin-top: 31px;
+    background-color: #f9f8f8;
+    padding-top: 43px;
+    padding-bottom: 25px;
+  }
+
+  .media {
+    margin-top: 31px;
+    background-color: #f9f8f8;
+    padding: 45px 120px 50px 120px;
+  }
+
+  .media-body {
+    padding-left: 20px;
+    text-align: justify;
+  }
+
+  .ling {
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: rgb(32, 141, 77);
+  }
+
+  .ling:hover {
+    background-color: #0c521e;
+    transition: all 0.5s;
   }
 }
